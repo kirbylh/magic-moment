@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>Epic Moment Version 1</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://tools.pinpoll.com/global.js" async></script>
+
+        <style>
+            body{
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                /* background-color: #9de32e; */
+                
+            }
+
+            #visitSaudi{
+                height: 100px;
+            }
+
+            img{
+                height:200px;
+            }
+
+            .poll{
+                margin-top:1%;
+                width:70%;
+                margin:auto;
+            }
+
+            .mobile{
+                display:none;
+            }
+
+            @media screen and (max-width:600px) {
+                .poll{
+                    display: none;
+                }
+
+                .mobile{
+                    display:block;
+                    margin-top:2%;
+                }
+            }
+
+            #header{
+                display:flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            #header>a{
+                margin-left:1%;
+            }
+
+            #header>img{
+                margin-right:1%;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <a href="../index.html"><img src="https://vectorlogo4u.com/wp-content/uploads/2023/05/AFC-2023-ASIAN-CUP-logo-vector-01-768x613.png" alt=""></a>
+            <img id="visitSaudi" src="../VS_logo.png" alt="Visit Saudi">
+        </div>
+        
+        <div class="poll">
+            <div data-pinpoll-id="250618" data-mode="quiz"></div>
+        </div>
+
+
+
+        
+    </body>
+</html>
