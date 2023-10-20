@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: #3B2771;
+    color: #9de32e;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+#afc-logo{
+    height:150px;
+}
+
+#top{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin-top:2%;
+    padding:2%;
+    align-items: center;
+}
+
+#top > div{
+    width:60%;
+    text-align: center;
+    align-items: center;
+}
+
+h1{
+    color:white;
+    font-weight:bold;
+    font-size:25px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+h4{
+    padding-top:2%;
+}
+
+#branch{
+    width:70%;
+}
+
+.btn-outline-success{
+    border: 2px solid white;
+    color:white;
+    font-weight: bold;
+    width:15%;
+    padding:1%;
+}
+
+.btn-outline-success:hover{
+    border: 2px solid white;
+    color:white;
+    background-color: transparent;
+}
+
+.matchList{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top:1%;
+}
+
+.btn{
+    margin: 1%;
+}
+
+.bottom{
+    margin-bottom:2%;
+}
+
+@media screen and (max-width:600px){
+    h1{
+        font-size:20px;
+    }
+
+    h3{
+        font-size:15px;
+    }
+
+    #top>div{
+        width:100%;
+    }
+
+    #top{
+        display:block;
+        text-align: center;
+    }
+
+    #branch{
+        width:90%;
+    }
+
+    .btn{
+        width:40%;
+    }
+    
+}
+
+#vote{
+    width:40%;
+    border: 2px solid #9de32e;
+    color:#9de32e;
+}
+
+#vote:hover{
+    width:40%;
+    border: 2px solid #9de32e;
+    color:white;
+    background-color:#9de32e ;
+}
+
+.desc{
+    margin-top:2%;
+}
+
