@@ -33,15 +33,11 @@ body{
 h1{
     color:white;
     font-weight:bold;
-    font-size:25px;
+    font-size:22px;
 }
 
 h3{
     font-size: 20px;
-}
-
-h4{
-    padding-top:2%;
 }
 
 #branch{
@@ -121,5 +117,7 @@ h4{
 
 .desc{
     margin-top:2%;
+    color:white;
 }
+
 
